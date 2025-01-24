@@ -30,7 +30,7 @@
     "@babel/preset-typescript": "7.15.0",
     "@babel/template": "7.15.4",
     "@babel/traverse": "7.15.4",
-    "@babel/types": "7.14.2",
+    "@babel/types": "7.26.7",
     "camelcase": "6.2.0",
     "command-line-args": "5.2.0",
     "command-line-usage": "6.1.1",
