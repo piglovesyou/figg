@@ -379,6 +379,11 @@
   dependencies:
     "@babel/types" "^7.15.4"
 
+"@babel/helper-string-parser@^7.25.9":
+  version "7.25.9"
+  resolved "https://registry.yarnpkg.com/@babel/helper-string-parser/-/helper-string-parser-7.25.9.tgz#1aabb72ee72ed35789b4bbcad3ca2862ce614e8c"
+  integrity sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==
+
 "@babel/helper-validator-identifier@^7.14.0":
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.0.tgz#d26cad8a47c65286b15df1547319a5d0bcf27288"
@@ -388,6 +393,11 @@
   version "7.14.9"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.9.tgz#6654d171b2024f6d8ee151bf2509699919131d48"
   integrity sha512-pQYxPY0UP6IHISRitNe8bsijHex4TWZXi2HwKVsjPiltzlhse2znVcm9Ace510VT1kxIHjGJCZZQBX2gJDbo0g==
+
+"@babel/helper-validator-identifier@^7.25.9":
+  version "7.25.9"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.25.9.tgz#24b64e2c3ec7cd3b3c547729b8d16871f22cbdc7"
+  integrity sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==
 
 "@babel/helper-validator-option@^7.12.17":
   version "7.12.17"
@@ -445,7 +455,14 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@7.14.3", "@babel/parser@^7.1.0", "@babel/parser@^7.12.13", "@babel/parser@^7.14.2", "@babel/parser@^7.14.3":
+"@babel/parser@7.26.7":
+  version "7.26.7"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.26.7.tgz#e114cd099e5f7d17b05368678da0fb9f69b3385c"
+  integrity sha512-kEvgGGgEjRUutvdVvZhbn/BxVt+5VSpwXz1j3WYXQbXDo8KzFOPNG2GQbdAiNq8g6wn1yKk7C/qrke03a84V+w==
+  dependencies:
+    "@babel/types" "^7.26.7"
+
+"@babel/parser@^7.1.0", "@babel/parser@^7.12.13", "@babel/parser@^7.14.2", "@babel/parser@^7.14.3":
   version "7.14.3"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.14.3.tgz#9b530eecb071fd0c93519df25c5ff9f14759f298"
   integrity sha512-7MpZDIfI7sUC5zWo2+foJ50CSI5lcqDehZ0lVgIhSi4bFEk94fLAKlF3Q0nzSQQ+ca0lm+O6G9ztKVBeu8PMRQ==
@@ -1219,6 +1236,14 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
+
+"@babel/types@^7.26.7":
+  version "7.26.7"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.26.7.tgz#5e2b89c0768e874d4d061961f3a5a153d71dc17a"
+  integrity sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==
+  dependencies:
+    "@babel/helper-string-parser" "^7.25.9"
+    "@babel/helper-validator-identifier" "^7.25.9"
 
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
